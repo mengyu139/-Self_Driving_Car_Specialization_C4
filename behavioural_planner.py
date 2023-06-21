@@ -133,6 +133,7 @@ class BehaviouralPlanner:
             # TODO: INSERT YOUR CODE BETWEEN THE DASHED LINES
             # ------------------------------------------------------------------
             if stop_sign_found:
+                self._stopsign_index = goal_index
                 self._goal_index[2] = 0
                 self._state = DECELERATE_TO_STOP
             # ------------------------------------------------------------------
